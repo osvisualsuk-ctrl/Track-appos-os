@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Inhance Media — book a property photography, drone, or video shoot in Suffolk or Norfolk. Fast response, free quotes." />
+  <title>Contact | Inhance Media</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">
+      <span class="nav__logo-name">Inhance Media</span>
+      <span class="nav__logo-tagline">Media that earns its keep.</span>
+    </a>
+    <div class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="contact.html" class="btn btn-primary" style="font-size:.72rem;padding:.7rem 1.4rem;">Book a Shoot</a>
+    <button class="nav__hamburger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="nav__mobile" id="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-primary" style="text-align:center;margin-top:.5rem;">Book a Shoot</a>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero__bg" style="background-image:url('https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=1400&q=80')"></div>
+  <div class="container page-hero__content">
+    <span class="tag">Get in Touch</span>
+    <h1>Book a Shoot</h1>
+    <div class="divider"></div>
+    <p class="lead">Fill in the form and we'll get back to you within 24 hours with availability and a tailored quote.</p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+     CONTACT SECTION
+══════════════════════════════ -->
+<section class="section section--cream">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Info column -->
+      <div class="contact-info fade-up">
+        <div>
+          <span class="tag">Contact Details</span>
+          <h2 style="font-size:1.8rem;">Let's talk about your property</h2>
+          <div class="divider"></div>
+          <p>Whether you're an Airbnb host wanting to boost your nightly rate, an estate agent who needs consistent quality, or a hotel refreshing its brand imagery — we'd love to hear from you.</p>
+        </div>
+
+        <div class="c-info-item">
+          <div class="c-info-ico">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <span class="c-info-label">Email</span>
+            <span class="c-info-value"><a href="mailto:hello@inhancemedia.com">hello@inhancemedia.com</a></span>
+          </div>
+        </div>
+
+        <div class="c-info-item">
+          <div class="c-info-ico">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <span class="c-info-label">Based In</span>
+            <span class="c-info-value">Lowestoft, Suffolk, NR32</span>
+          </div>
+        </div>
+
+        <div class="c-info-item">
+          <div class="c-info-ico">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <span class="c-info-label">Response Time</span>
+            <span class="c-info-value">Within 24 hours on business days</span>
+          </div>
+        </div>
+
+        <div class="c-info-item">
+          <div class="c-info-ico">
+            <svg viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+          </div>
+          <div>
+            <span class="c-info-label">Service Area</span>
+            <span class="c-info-value">All of Suffolk &amp; Norfolk. No travel surcharge within the region.</span>
+          </div>
+        </div>
+
+        <div style="background:var(--cream-mid);border-radius:var(--r-lg);padding:1.75rem;border-left:3px solid var(--gold);">
+          <h4 style="font-size:1rem;color:var(--forest);margin-bottom:.5rem;">Not sure which package you need?</h4>
+          <p style="font-size:.85rem;">Just describe your property in the message box — we'll recommend the right service and price range before you commit to anything.</p>
+        </div>
+      </div>
+
+      <!-- Form column -->
+      <div class="fade-up">
+        <div class="contact-form-wrap">
+          <h3 style="font-size:1.5rem;color:var(--forest);margin-bottom:.5rem;">Send Us a Message</h3>
+          <p style="font-size:.875rem;margin-bottom:2rem;color:var(--text-light);">All fields marked * are required. We never share your details with third parties.</p>
+
+          <form id="contact-form" novalidate>
+            <div class="form-grid">
+
+              <div class="fg">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Jane Smith" autocomplete="name" />
+                <span class="field-err"></span>
+              </div>
+
+              <div class="fg">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="jane@example.com" autocomplete="email" />
+                <span class="field-err"></span>
+              </div>
+
+              <div class="fg">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+44 7700 000000" autocomplete="tel" />
+                <span class="field-err"></span>
+              </div>
+
+              <div class="fg">
+                <label for="service">Service Required *</label>
+                <select id="service" name="service">
+                  <option value="">— Select a service —</option>
+                  <option value="photography">HDR Property Photography</option>
+                  <option value="drone">Drone &amp; Aerial Photography</option>
+                  <option value="video">Property Video Walkthrough</option>
+                  <option value="complete">Photography + Drone (Elite)</option>
+                  <option value="retainer">Monthly Retainer Plan</option>
+                  <option value="custom">Custom / Not Sure Yet</option>
+                </select>
+                <span class="field-err"></span>
+              </div>
+
+              <div class="fg fg--full">
+                <label for="property">Property Address or Location</label>
+                <input type="text" id="property" name="property" placeholder="e.g. Southwold, Suffolk" autocomplete="street-address" />
+                <span class="field-err"></span>
+              </div>
+
+              <div class="fg fg--full">
+                <label for="message">Tell Us More *</label>
+                <textarea id="message" name="message" placeholder="Briefly describe your property, number of bedrooms, and what you're hoping to achieve with the media..."></textarea>
+                <span class="field-err"></span>
+              </div>
+
+              <div class="fg fg--full">
+                <label for="timeline">Preferred Timeline</label>
+                <select id="timeline" name="timeline">
+                  <option value="">— How soon do you need this? —</option>
+                  <option value="asap">As soon as possible</option>
+                  <option value="2weeks">Within 2 weeks</option>
+                  <option value="month">Within a month</option>
+                  <option value="flexible">I'm flexible</option>
+                </select>
+                <span class="field-err"></span>
+              </div>
+
+              <div class="fg fg--full" style="margin-top:.5rem;">
+                <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;padding:1rem;">
+                  Send Enquiry
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </button>
+              </div>
+
+            </div>
+          </form>
+
+          <div class="form-success">
+            <div class="form-success__ico">✅</div>
+            <h3>Message Received!</h3>
+            <p>Thanks for getting in touch. We'll review your enquiry and reply within 24 hours with availability and a tailored quote.</p>
+            <a href="index.html" class="btn btn-outline" style="margin-top:1.5rem;">Back to Home</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+     QUICK REASSURANCES
+══════════════════════════════ -->
+<section class="section section--cream-mid">
+  <div class="container">
+    <div class="section-header centered fade-up">
+      <span class="tag">What Happens Next</span>
+      <h2>After you hit send</h2>
+      <div class="divider centered"></div>
+    </div>
+    <div class="steps-grid">
+      <div class="step fade-up">
+        <span class="step__num">Step 01</span>
+        <div class="step__ico">
+          <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <h3>We Review Your Enquiry</h3>
+        <p>We'll read through your message, check our diary, and confirm which package or approach best fits your goals.</p>
+      </div>
+      <div class="step fade-up">
+        <span class="step__num">Step 02</span>
+        <div class="step__ico">
+          <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3>You Receive a Tailored Quote</h3>
+        <p>Within 24 hours you'll have a clear, itemised quote in your inbox. No pressure — take your time to decide.</p>
+      </div>
+      <div class="step fade-up">
+        <span class="step__num">Step 03</span>
+        <div class="step__ico">
+          <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </div>
+        <h3>We Lock In a Date</h3>
+        <p>Once you're happy, we'll confirm a shoot date, send a booking confirmation, and handle everything from there.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <h3>Inhance Media</h3>
+        <p class="tagline">Media that earns its keep.</p>
+        <p>Professional photography, drone aerials, and media retainers for holiday lets, estate agents, and hospitality businesses across Suffolk &amp; Norfolk.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#photography">HDR Photography</a></li>
+          <li><a href="services.html#drone">Drone &amp; Aerial</a></li>
+          <li><a href="services.html#video">Video Walkthroughs</a></li>
+          <li><a href="services.html#retainer">Retainer Plans</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Get in Touch</h4>
+        <ul>
+          <li><a href="mailto:hello@inhancemedia.com">hello@inhancemedia.com</a></li>
+          <li>Lowestoft, Suffolk</li>
+          <li>Serving Suffolk &amp; Norfolk</li>
+          <li><a href="contact.html">Book a Shoot →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025 Inhance Media. All rights reserved. &nbsp;|&nbsp; <a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms</a></p>
+      <p>CAA A1/A3 Certified &nbsp;·&nbsp; Fully Insured &nbsp;·&nbsp; Based in Lowestoft, Suffolk</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
