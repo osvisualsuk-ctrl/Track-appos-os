@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Inhance Media portfolio — property photography, drone aerials, and video work across Suffolk and Norfolk." />
+  <title>Portfolio | Inhance Media</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">
+      <span class="nav__logo-name">Inhance Media</span>
+      <span class="nav__logo-tagline">Media that earns its keep.</span>
+    </a>
+    <div class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="contact.html" class="btn btn-primary" style="font-size:.72rem;padding:.7rem 1.4rem;">Book a Shoot</a>
+    <button class="nav__hamburger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="nav__mobile" id="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-primary" style="text-align:center;margin-top:.5rem;">Book a Shoot</a>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero__bg" style="background-image:url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1400&q=80')"></div>
+  <div class="container page-hero__content">
+    <span class="tag">Our Work</span>
+    <h1>Portfolio</h1>
+    <div class="divider"></div>
+    <p class="lead">Real shoots, real properties, real results. Click any image to view full-size.</p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+     PORTFOLIO GALLERY
+══════════════════════════════ -->
+<section class="section section--cream">
+  <div class="container">
+
+    <!-- Filters -->
+    <div class="portfolio-filters fade-up">
+      <button class="filter-btn active" data-filter="all">All Work</button>
+      <button class="filter-btn" data-filter="interiors">Interiors</button>
+      <button class="filter-btn" data-filter="exteriors">Exteriors</button>
+      <button class="filter-btn" data-filter="aerial">Drone &amp; Aerial</button>
+      <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+    </div>
+
+    <!-- Grid -->
+    <div class="portfolio-grid">
+
+      <!-- Interiors -->
+      <div class="p-item p-item--tall" data-cat="interiors" data-caption="Master Bedroom · Airbnb, Southwold">
+        <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&q=80" alt="Luxury bedroom interior" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Interiors</span>
+          <span class="p-item__title">Master Bedroom · Southwold</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="interiors" data-caption="Open-Plan Kitchen · Holiday Let, Holt">
+        <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80" alt="Modern kitchen interior" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Interiors</span>
+          <span class="p-item__title">Kitchen · Holiday Let, Holt</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="aerial" data-caption="Coastal Aerial · Estate, Aldeburgh">
+        <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt="Coastal aerial drone shot" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Drone &amp; Aerial</span>
+          <span class="p-item__title">Coastal Estate · Aldeburgh</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="interiors" data-caption="Living Room · Airbnb, Bury St Edmunds">
+        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80" alt="Modern living room" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Interiors</span>
+          <span class="p-item__title">Living Room · Bury St Edmunds</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="exteriors" data-caption="Luxury Exterior · For Sale, Woodbridge">
+        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80" alt="Luxury home exterior" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Exteriors</span>
+          <span class="p-item__title">Luxury Home · Woodbridge</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="aerial" data-caption="Aerial Countryside · Farm Estate, Mid-Suffolk">
+        <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&q=80" alt="Aerial countryside view" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Drone &amp; Aerial</span>
+          <span class="p-item__title">Farm Estate · Mid-Suffolk</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="interiors" data-caption="Bathroom Suite · Holiday Cottage, Southwold">
+        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80" alt="Bathroom interior" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Interiors</span>
+          <span class="p-item__title">Bathroom · Southwold</span>
+        </div>
+      </div>
+
+      <div class="p-item p-item--tall" data-cat="exteriors" data-caption="Period Cottage · For Sale, Framlingham">
+        <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800&q=80" alt="Period cottage exterior" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Exteriors</span>
+          <span class="p-item__title">Period Cottage · Framlingham</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="hospitality" data-caption="Restaurant Interior · Hotel, Norwich">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="Restaurant interior hospitality" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Hospitality</span>
+          <span class="p-item__title">Restaurant · Hotel, Norwich</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="interiors" data-caption="Open Living Space · Airbnb, Cromer">
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80" alt="Open plan living space" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Interiors</span>
+          <span class="p-item__title">Open Living · Cromer</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="aerial" data-caption="Aerial Village · Norfolk Broads">
+        <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=800&q=80" alt="Aerial landscape view" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Drone &amp; Aerial</span>
+          <span class="p-item__title">Norfolk Broads Aerial</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="exteriors" data-caption="Modern Home · For Sale, Ipswich">
+        <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&q=80" alt="Modern house exterior" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Exteriors</span>
+          <span class="p-item__title">Modern Home · Ipswich</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="hospitality" data-caption="Hotel Room · Boutique B&amp;B, Norfolk">
+        <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80" alt="Hotel room interior" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Hospitality</span>
+          <span class="p-item__title">Boutique B&amp;B Room · Norfolk</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="interiors" data-caption="Dining Room · Holiday Let, Southwold">
+        <img src="https://images.unsplash.com/photo-1617104551722-3b2d51366a86?w=800&q=80" alt="Dining room interior" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Interiors</span>
+          <span class="p-item__title">Dining Room · Southwold</span>
+        </div>
+      </div>
+
+      <div class="p-item" data-cat="aerial" data-caption="Coastal Clifftop · Property, Happisburgh">
+        <img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&q=80" alt="Coastal aerial drone" loading="lazy" />
+        <div class="p-item__ov">
+          <span class="p-item__cat">Drone &amp; Aerial</span>
+          <span class="p-item__title">Coastal Clifftop · Happisburgh</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" aria-label="Close">&times;</button>
+  <button class="lb-nav lb-prev" aria-label="Previous">&#8249;</button>
+  <img class="lb-img" src="" alt="Portfolio image enlarged" />
+  <button class="lb-nav lb-next" aria-label="Next">&#8250;</button>
+  <p class="lb-caption"></p>
+</div>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="container">
+    <span class="tag" style="color:var(--forest-dark);">Like What You See?</span>
+    <h2>Let's make your property look this good</h2>
+    <p>Based in Lowestoft, covering Suffolk and Norfolk. Fast turnaround, professional results.</p>
+    <a href="contact.html" class="btn btn-dark">Book Your Shoot</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <h3>Inhance Media</h3>
+        <p class="tagline">Media that earns its keep.</p>
+        <p>Professional photography, drone aerials, and media retainers for holiday lets, estate agents, and hospitality businesses across Suffolk &amp; Norfolk.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#photography">HDR Photography</a></li>
+          <li><a href="services.html#drone">Drone &amp; Aerial</a></li>
+          <li><a href="services.html#video">Video Walkthroughs</a></li>
+          <li><a href="services.html#retainer">Retainer Plans</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Get in Touch</h4>
+        <ul>
+          <li><a href="mailto:hello@inhancemedia.com">hello@inhancemedia.com</a></li>
+          <li>Lowestoft, Suffolk</li>
+          <li>Serving Suffolk &amp; Norfolk</li>
+          <li><a href="contact.html">Book a Shoot →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025 Inhance Media. All rights reserved. &nbsp;|&nbsp; <a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms</a></p>
+      <p>CAA A1/A3 Certified &nbsp;·&nbsp; Fully Insured &nbsp;·&nbsp; Based in Lowestoft, Suffolk</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
